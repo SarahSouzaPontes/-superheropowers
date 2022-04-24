@@ -52,10 +52,10 @@ Vamos transformar nosso problema em uma tarefa de regressão e tentar prever o p
 2. Como você avalia o desempenho do seu algoritmo neste caso? --> R 0.547, sendo que ambos P são estatisticamente significativos (0.013; 0.000).
 
 Análise
-Quais aspectos desse conjunto de dados apresentam problemas para agrupamento, classificação e regressão? Como você resolveu esses problemas? As variáveis booleanas, essas foram transformadas para numéricas, limpeza do banco, normalização e balanceamento.
+Quais aspectos desse conjunto de dados apresentam problemas para agrupamento, classificação e regressão? Como você resolveu esses problemas? --> As variáveis booleanas, essas foram transformadas para numéricas, limpeza do banco, normalização e balanceamento.
 
 Bônus
-Se você gostou de brincar com o conjunto de dados de super-heróis, esta seção é para você mostrar quaisquer outros aspectos dos dados que não exploramos nas perguntas. Como uma seção de bônus, isso é totalmente opcional, mas adoraríamos ver os insights que você pode obter desses dados. --> Relatório da Análise da Estatística pelo Pandas Profilling.
+Se você gostou de brincar com o conjunto de dados de super-heróis, esta seção é para você mostrar quaisquer outros aspectos dos dados que não exploramos nas perguntas. Como uma seção de bônus, isso é totalmente opcional, mas adoraríamos ver os insights que você pode obter desses dados. --> Relatório da Análise da Estatística Descritiva pelo Pandas Profilling.
 
 
 
