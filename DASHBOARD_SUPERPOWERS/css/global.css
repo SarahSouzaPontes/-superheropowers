@@ -1,0 +1,173 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexcollum {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 5px;
+}
+
+.flexbtn {
+  display: flex;
+  justify-content: flex-start;
+}
+.flexbtn2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.informacao--btn2 {
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+}
+.informacao--btn2 a {
+  color: black;
+  background: rgb(167, 165, 165);
+  height: 48px;
+  width: 200px;
+  margin-left: -50px;
+  padding-left: 40%;
+  padding-top: 10%;
+}
+.informacao--btn2 :hover {
+  background-color: rgb(133, 130, 130);
+  box-shadow: 0 5px 0;
+}
+
+.informacao--btn3 {
+  display: flex;
+  align-items: center;
+  margin-left: 55%;
+}
+.informacao--btn3 a {
+  color: black;
+  background: rgb(167, 165, 165);
+  height: 48px;
+  width: 200px;
+  margin-left: -50px;
+  padding-left: 40%;
+  padding-top: 10%;
+}
+.informacao--btn3 :hover {
+  background-color: rgb(133, 130, 130);
+  box-shadow: 0 5px 0;
+}
+
+.informacao--btn4 {
+  display: flex;
+}
+
+.informacao--btn4 img {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.informacao--btn4 a {
+  color: #fff;
+  background: #203a4c;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.informacao--btn4 a:hover {
+  background-color: #54a191;
+}
+
+.informacao--btn5 {
+  display: flex;
+}
+
+.informacao--btn5 a {
+  color: #fff;
+  background: #203a4c;
+  height: 50px;
+  width: 80px;
+  margin-top: 20px;
+  display: flex;
+  align-self: center;
+  padding: 10px 10px;
+}
+
+.informacao--btn5 a:hover {
+  background-color: #54a191;
+}
+
+.cabecalho ul li {
+  float: left;
+  display: inline;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  color: black;
+  width: 200px;
+}
+
+.cabecalho ul {
+  padding: 0;
+}
+
+.cabecalho ul ul {
+  display: none;
+}
+
+.cabecalho ul li:hover > ul {
+  display: block;
+}
+
+.cabecalho ul li:hover {
+  background-color: #e9a22fa4;
+  color: white;
+}
+
+.menu {
+  color: #5fb4a2;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #f2f2f2;
+}
+
+.potfolio {
+  color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+body {
+  background: #f2f2f2;
+}
+
+.informacao--btnvisitar {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  border-color: black;
+  margin-left: 10px;
+}
+.informacao--btnvisitar a {
+  color: black;
+  background: rgb(167, 165, 165);
+  height: 38px;
+  width: 100px;
+  padding: 5%;
+}
+.informacao--btnvisitar :hover {
+  background-color: rgb(133, 130, 130);
+  box-shadow: 0 5px 0;
+}

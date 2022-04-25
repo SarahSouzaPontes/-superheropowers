@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Ibarra Real Nova", serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 200%;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-left: 20px;
+}
+a {
+  font-size: 12px;
+}
+body {
+  background: #f2f2f2;
+}
+
+p {
+  font-family: Public Sans;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.FyloBookmark {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Fylo {
+  display: flex;
+  flex-direction: column;
+}
+
+.Bookmark {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rodape {
+  display: flex;
+}
+
+p {
+  text-align: justify;
+}
+
+.button4 {
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  justify-self: flex-end;
+  margin: 20px, 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.button5 {
+  width: 175px;
+  height: 48px;
+  align-items: center;
+  justify-self: flex-end;
+  margin-left: 300px;
+  margin: 20px, 20px;
+  margin-bottom: 20px;
+}
+
+.button5 h2 {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.rodapepreto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #33323d;
+  width: auto;
+  height: 80px;
+  margin-top: 30px;
+}
+.imagens {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.logo-light.svg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imagens a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px;
+  justify-content: space-between;
+  width: 150px;
+}
+
+h2 {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.final {
+  padding: 0 100px;
+}
+
+.img logo-light {
+  padding: 20px 20px;
+}
+
+.insure2 {
+  display: flex;
+}
+
+.meio {
+  width: 50%;
+}
+.imagem {
+  width: 100%;
+}
+
+.imagem1 {
+  width: 100%;
+  height: auto;
+}
+
+.imagem2 {
+  width: 100%;
+  height: auto;
+}
+.imagem3 {
+  width: 100%;
+  height: auto;
+}
+.projeto {
+  width: 50%;
+}
+.rodap {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin-top: 70px;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+}
+.buttonc {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 550px;
+  width: 175px;
+  height: 48px;
+  padding: 10px 10px;
+  align-items: center;
+}
+.buttonc a {
+  margin-bottom: 20px;
+}
+
+.buttonc h2 {
+  margin-bottom: 20px;
+}
+span {
+  font-size: 40px;
+  line-height: 42px;
+}
+a {
+  text-decoration: none;
+}
+h4 {
+  color: rgb(80, 139, 120);
+}
+.projeto {
+  margin-left: 20px;
+}

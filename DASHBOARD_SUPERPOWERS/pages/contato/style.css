@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cc {
+  padding: 0px 150px;
+}
+
+.scontatoflex {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.contato h1 {
+  display: flex;
+  font-family: "Ibarra Real Nova", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  width: 350px;
+  margin-right: 150px;
+}
+
+.contato p {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.contatorede img {
+  margin: 30px 0px 0px 10px;
+}
+label {
+  font-family: "Public Sans", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  color: #33323d;
+  opacity: 0.8;
+  margin: 10px 0px 5px 0px;
+}
+.cc {
+  padding: 100px 0;
+}
+
+.ccitem {
+  display: flex;
+  margin-top: 30px;
+  padding: 100px 0;
+}
+
+.cc h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  max-width: 350px;
+  margin: 10px 150px 0px 0px;
+}
+
+.itemcontato {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemcontato input {
+  all: unset;
+  background: rgb(234, 234, 235);
+  color: black;
+  font-size: 24px;
+  height: 40px;
+  width: 40vw;
+}
+
+.rodapepreto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #33323d;
+  width: auto;
+  height: 80px;
+  margin-top: 30px;
+}
+.imagens {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.logo-light.svg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imagens a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px;
+  justify-content: space-between;
+  width: 150px;
+}
+.btn {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #203a4c;
+  border: 1px solid #203a4c;
+  padding: 10px 20px;
+  margin: 20px 0px 60px 0px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-left: 20px;
+}
+a {
+  font-size: 12px;
+  text-decoration: none;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+.margem {
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+}

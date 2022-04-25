@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Ibarra Real Nova", serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 200%;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.divcard {
+  background-image: url("../../assets/computadortela.jpg");
+  height: 600px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 150px;
+}
+
+.informacao--btn {
+  display: flex;
+}
+
+.informacao--btn img {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.informacao--btn a {
+  color: #fff;
+  background: #203a4c;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+button {
+  all: unset;
+}
+.informacao--btn a:hover {
+  background-color: #54a191;
+}
+.cardperfil {
+  display: flex;
+  gap: 80px;
+}
+.cardperfil img {
+  width: 50%;
+}
+.apresentacao {
+  background: #f2f2f2;
+  width: 400px;
+}
+.apresentacao h1 {
+  margin: 56px 28px;
+}
+.sobremim {
+  padding-left: 40px;
+}
+.sobremim h1 {
+  font-size: 40px;
+  line-height: 42px;
+}
+h5 {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 16px;
+  font-family: "public sans";
+}
+.espaco {
+  margin-bottom: 30px;
+}
+
+.moldura {
+  padding: 30px;
+}
+
+.rodap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: 80px;
+  margin-top: 70px;
+  padding: 70px 50px;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.image a {
+  text-decoration: none;
+  color: rgb(24, 23, 23);
+  justify-content: space-between;
+  padding: 10px 10px;
+  font-size: 30px;
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.rodapepreto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #33323d;
+  width: auto;
+  height: 80px;
+  margin-top: 30px;
+}
+.imagens {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.logo-light.svg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imagens a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px;
+  justify-content: space-between;
+  width: 150px;
+}
+
+h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.informacao--btn1 {
+  display: flex;
+}
+.informacao--btn1 a {
+  color: black;
+  background: rgb(167, 165, 165);
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  height: 48px;
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25%;
+}
+.informacao--btn1 :hover {
+  background-color: rgb(133, 130, 130);
+  box-shadow: 0 5px 0;
+}
+a {
+  font-size: 14px;
+  font-family: "Public Sans", sans-serif;
+  text-decoration: none;
+  justify-content: flex-end;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+}
