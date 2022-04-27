@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+        <title>SELEÇÃO ALELO 2022</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+
+        <header>
+            <div class="card">
+                <nav class="cabecalho">
+                    <ul>
+                        <li><a class="menu" href="../home/index.html">HOME</a></li>
+                        <li><a class="menu" href="https://www.kaggle.com/datasets/claudiodavi/superhero-set" target="_blank">BANCO DE DADOS SUPER HERÓIS</a> </li>
+                        <li><a class="menu" href="../panda-profile/index.html">ANÁLISE DESCRITIVA DOS DADOS</a></li>
+                        <li><a class="menu" href=#>ROTINA NO G.COLAB</a></li>
+                        <li><a class="menu" href="../contato/index.html">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <article class="section_card">
+
+
+                <div class="gcolab">
+                    <h1 class="python"> Script Python </h1>
+
+                    <script src="https://gist.github.com/SarahSouzaPontes/0e4d3df0aed425787a4b2560d757d1d8.js"></script>
+                </div>
+
+
+            </article>
+
+
+            <article class="section_card">
+                <h1 class="python"> Respostas </h1>
+                <div class="quadro">
+                    <div class="card_txt ">
+                        <div class="txt">
+                            <h2 id="-superheropowers-"><strong>-Super Hero Powers</strong></h2>
+                            <p>Kaggle dataset em <a href="https://www.kaggle.com/claudiodavi/superhero-set/data">superheros</a> (superheropowers)</p>
+                            <ul>
+                                <li>
+                                    <h1 id="desafio-de-aprendizado-de-m-quina-alelo"><span class="tab"></span>Desafio de aprendizado de máquina Alelo</h1>
+                                </li>
+                                <li>
+                                    <p>Questão 1 -Primeiro, queremos agrupar nossos super-heróis de acordo com seus poderes e informações. Execute um método de cluster não supervisionado usando o número de clusters que você julgar mais apropriado.</p>
+                                    <ol>
+                                        <li>Qual algoritmo você escolheu e por quê?</li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <p style="color: #502475;"><strong>R:</strong> “k-means, possui um custo computacional relativamente baixo, pode ser escalonável”</p>
+                            <ol>
+                                <li>Quais recursos você usou e por quê? Explique qualquer pré-processamento ou engenharia de recursos (seleção) que você executou. </li>
+                            </ol>
+                            <p style="color: #502475;"><strong>R:</strong> Limpeza do banco de dados removendo dados faltantes (NAN), retirando as colunas não necessárias para análise estatística como a do ID.</p>
+                            <ul>
+                                <li>Questão 2</li>
+                            </ul>
+                            <p>Um dos desafios do clustering é definir o número certo de clusters. Como você escolheu esse número? Como você avalia a qualidade dos clusters finais? </p>
+                            <p style="color: #502475;"><strong>R:</strong> Através do método de Elbow (gráfico) com a inflexão em 5 agrupamentos.</p>
+                            <h1 id="identificando-os-bandidos">Identificando os bandidos</h1>
+                            <p>Nesta seção, lidaremos com o problema de aprendizagem supervisionada. Mais concretamente, iremos formular uma tarefa de classificação, e nosso alvo é o alinhamento dos super-heróis (bom ou mau).</p>
+                            <ul>
+                                <li>
+                                    <p>Questão 3 Primeiro, usaremos o algoritmo Naive Bayes. Execute o algoritmo nos dados dos super-heróis para prever a variável de alinhamento e avaliar os resultados. Novamente, detalhe qualquer pré-processamento e engenharia
+                                        de recursos que você aplicou no processo.</p>
+                                </li>
+                                <li>
+                                    <p>Quais hipóteses assumimos ao usar o algoritmo Naive Bayes? </p>
+                                </li>
+                            </ul>
+                            <p style="color: #502475;"><strong>R:</strong> Altura e Peso são preditoras da Target (&quot;Alignment&quot;).</p>
+                            <ol>
+                                <li>Como as características específicas deste conjunto de dados influenciam suas escolhas e resultados de modelagem? </li>
+                            </ol>
+                            <p style="color: #502475;"><strong>R:</strong> Dados numéricos e contínuos.</p>
+                            <ol>
+                                <li>Como você avalia os resultados? </li>
+                            </ol>
+                            <p style="color: #502475;"><strong>R:</strong> Foi necessário normalizar e balancear as classes, assim, no pré balanceamento a acuária era maior que após o procedimento.</p>
+                            <ul>
+                                <li>Questão 4</li>
+                            </ul>
+                            <p>Agora sinta-se à vontade para executar o algoritmo de classificação que julgar mais adequado para essa tarefa. Foi realizado um loop de modelos com a melhor acurária para a Arvore de Decisão.</p>
+                            <ol>
+                                <li>O que motivou sua escolha do algoritmo? </li>
+                            </ol>
+                            <p style="color: #502475;"><strong>R:</strong> O resultado das análises de acurácia.</p>
+                            <ol>
+                                <li>Como esse algoritmo se compara ao Naive Bayes em relação às suposições e resultados da modelagem? </li>
+                            </ol>
+                            <p style="color: #502475;"><strong>R:</strong> K-NN e Naive Bayes superam as Arvores de Decisão em ocorrências raras dos desfechos, se comparada a K-NN o NB supera pelos Hiperparâmetros alfa e beta. Os três métodos são indicados para Classificação no
+                                Aprendizado Supervisionado.
+                            </p>
+                            <h1 id="al-m-do-bem-e-do-mal">Além do bem e do mal</h1>
+                            <p>Vamos transformar nosso problema em uma tarefa de regressão e tentar prever o peso dos super-heróis dados os outros recursos.</p>
+                            <ol>
+                                <li>
+                                    <p>Qual algoritmo você escolheu e por quê?</p>
+                                    <p style="color: #502475;"><strong>R:</strong> Regressão Linear Múltipla devido utilizar mais de uma variável preditora.</p>
+                                </li>
+                                <li>
+                                    <p>Como você avalia o desempenho do seu algoritmo neste caso? </p>
+                                </li>
+                            </ol>
+                            <p style="color: #502475;"><strong>R:</strong> R 0.547, sendo que ambos P são estatisticamente significativos (0.013; 0.000).</p>
+                            <h1 id="an-lise">Análise</h1>
+                            <ul>
+                                <li>Quais aspectos desse conjunto de dados apresentam problemas para agrupamento, classificação e regressão? Como você resolveu esses problemas? </li>
+                            </ul>
+                            <p style="color: #502475;"><strong>R:</strong> As variáveis booleanas, essas foram transformadas para numéricas, limpeza do banco, normalização e balanceamento.</p>
+                            <h1 id="b-nus">Bônus</h1>
+                            <p>Se você gostou de brincar com o conjunto de dados de super-heróis, esta seção é para você mostrar quaisquer outros aspectos dos dados que não exploramos nas perguntas. Como uma seção de bônus, isso é totalmente opcional, mas
+                                adoraríamos ver os insights que você pode obter desses dados. </p>
+                            <p style="color: #502475;"><strong>R:</strong> Relatório da Análise da Estatística Descritiva pelo Pandas Profilling.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+
+        <footer>
+
+            <div class=" imagens ">
+
+                <a href="https://github.com/SarahSouzaPontes " target="_blank "><img src="../../assets/icons/github-light.svg " alt="github "></a>
+
+                <a href="https://br.linkedin.com/in/sarah-pontes-b018064a " target="_blank "><img src="../../assets/icons/linkedin-light.svg " alt="linkedin "></a>
+
+            </div>
+        </footer>
+
+    </body>
+
+</html>
