@@ -24,7 +24,7 @@ Primeiro, queremos agrupar nossos super-heróis de acordo com seus poderes e inf
 
 Questão 2
 
-Um dos desafios do clustering é definir o número certo de clusters. Como você escolheu esse número? Como você avalia a qualidade dos clusters finais? --> Através do método de Elbow (gráfico) com a inflexão aproximadamente 3 agrupamentos.
+Um dos desafios do clustering é definir o número certo de clusters. Como você escolheu esse número? Como você avalia a qualidade dos clusters finais? --> Através do método de Elbow (gráfico) com a inflexão aproximadamente 5 agrupamentos.
 
 Identificando os bandidos
 Nesta seção, lidaremos com o problema de aprendizagem supervisionada. Mais concretamente, iremos formular uma tarefa de classificação, e nosso alvo é o alinhamento dos super-heróis (bom ou mau).
