@@ -49,7 +49,7 @@ Além do bem e do mal
 Vamos transformar nosso problema em uma tarefa de regressão e tentar prever o peso dos super-heróis dados os outros recursos.
 
 1. Qual algoritmo você escolheu e por quê? --> Regressão Linear Múltipla devido utilizar mais de uma variável preditora.
-2. Como você avalia o desempenho do seu algoritmo neste caso? --> R 0.547, sendo que ambos P são estatisticamente significativos (0.013; 0.000).
+2. Como você avalia o desempenho do seu algoritmo neste caso? --> R 0.538, sendo que ambos P são estatisticamente significativos (0.015; 0.000).
 
 Análise
 Quais aspectos desse conjunto de dados apresentam problemas para agrupamento, classificação e regressão? Como você resolveu esses problemas? --> As variáveis booleanas, essas foram transformadas para numéricas, limpeza do banco, normalização e balanceamento.
