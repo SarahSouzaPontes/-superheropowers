@@ -1,0 +1,129 @@
+.imagens {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.imagens a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin: 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.section_card {
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.quadro {
+    display: flex;
+    background-image: url("../../assets/home/685.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px 5px whitesmoke;
+    align-items: center;
+    opacity: 0.9;
+    justify-content: center;
+}
+
+.card_txt {
+    background-color: whitesmoke;
+    box-shadow: inset 0 0 5px 5px whitesmoke;
+    text-align: justify;
+    color: black;
+    width: 95%;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.txt {
+    margin: 2vw;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 45px;
+    opacity: 0.9;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.gist {
+    width: 100% !important;
+}
+
+.gist {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.gist pre {
+    font-family: Menlo, Monaco, 'Bitstream Vera Sans Mono', 'Courier New', monospace !important
+}
+
+.gist-meta {
+    font-family: Arial, sans-serif;
+    font-size: 13px !important
+}
+
+.gist-meta a {
+    color: #3b5998 !important;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.gist-meta a:hover {
+    text-decoration: underline
+}
+
+.blob-code,
+.blob-num {
+    font-size: 18px !important;
+}
+
+.gist-meta {
+    display: none;
+}
+
+.gcolab {
+    width: 100%;
+    overflow: auto;
+}
+
+.python {
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 32px;
+    background-color: #ad3fecd3;
+    border: 4px solid #aa89bd;
+    text-align: center;
+    color: #F0E926;
+    text-decoration: none;
+    padding: 10px;
+    height: 9vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.python:hover {
+    background-color: #21AD28;
+    border: 4px solid #7A21AD;
+    box-shadow: inset 0 0 0 3px;
+    transform: skew(-10deg);
+}

@@ -4,9 +4,6 @@ Kaggle em https://www.kaggle.com/claudiodavi/superhero-set/data (superheropowers
 
 Desafio de aprendizado de máquina
 
-Alelo
-
-
 Introdução
 
 Esta é uma pequena série de exercícios para avaliar seu conhecimento em aprendizado de máquina. Responda às perguntas detalhando as etapas executadas para resolver cada tarefa. Todas as perguntas são simples, mas esta é sua chance de nos mostrar seus conhecimentos técnicos.
