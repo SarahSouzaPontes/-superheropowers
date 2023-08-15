@@ -55,5 +55,21 @@ Bônus
 Se você gostou de brincar com o conjunto de dados de super-heróis, esta seção é para você mostrar quaisquer outros aspectos dos dados que não exploramos nas perguntas. Como uma seção de bônus, isso é totalmente opcional, mas adoraríamos ver os insights que você pode obter desses dados. --> Relatório da Análise da Estatística Descritiva pelo Pandas Profilling.
 
 
+--------------------------------------------------------------------------------------------------------------------------------------
+Atualização com sugestões para melhoras 14/08/2023 (Arquivo detalhamento)
+--------------------------------------------------------------------------------------------------------------------------------------
+1.Iria focar no Storytelling, descrever melhor o problema de negócio (slide 2);
+2. Dicionário de dados, não apenas listaria as variáveis, mas o significado de cada uma para melhor entender o comportamento da variável, bem como "trabalhar" com ela (slide 3,4);
+3. Removi linhas  com nome e "Publisher" duplicados, mas não visualizado se há variáveis que se complementam em lacunas das linhas(slide 5); 
+4. Opção de remover linhas pode ser imputado por diversas formas a depender da variável, logo eu poderia ter "tratado" cada uma de forma distinta (slide 8);
+5.Analisar o cluster pela forma Elbow, pois o modo PCA também pode ser utilizado com vantagem (slide 9);
+6.Plotar dendrograma para visualizar cluster (slide 11);
+7. Dados com dimensionalidade e presença de outliers se aproximam do PCA (slide 13);
+8. Silhoutte Score e Inertia métrica para investigar o cluster (slide 14,15);
+9. Engenharia de recursos poderia gerar novas variáveis com categorias/faixas, transformar em dummy para inserir no modelo;
+10. Ajustar Hiperparâmetros e F1-Score, AUC-ROC para avaliar o modelo;
+11.Realizei o relatório de análise descritiva (pandas profilling), mas aprendi outro sweetviz.
 
+
+-----------------------------------------------------------------------------------------------------------------------------------------
 
